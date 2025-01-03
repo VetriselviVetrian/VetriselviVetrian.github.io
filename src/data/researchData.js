@@ -25,7 +25,7 @@ export const researchDetails = [
   },
   {
     id: 3,
-    title: "Security",
+    title: "Security Hello",
     image: placeholder,
     description:
       "Developing robust cybersecurity solutions focusing on network security, cryptography, and threat detection systems.",
