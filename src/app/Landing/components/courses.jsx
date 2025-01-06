@@ -3,7 +3,7 @@ import { FaNetworkWired, FaLock, FaBrain, FaFlask } from "react-icons/fa";
 
 const courseData = [
   {
-    title: "Computer Networks",
+    title: "CS6111: Computer Networks",
     icon: FaNetworkWired,
     description:
       "A detailed introduction to the principles of computer networking, focusing on protocols, network design, and real-world applications.",
@@ -11,23 +11,23 @@ const courseData = [
       "TCP/IP Protocol Suite",
       "Network Security",
       "Wireless Networks",
-      "Cloud Computing",
+      "Software Defined Networks",
     ],
   },
   {
-    title: "Cryptography",
+    title: "CS6008: Cryptography and Network Security",
     icon: FaLock,
     description:
       "Comprehensive coverage of cryptographic techniques and their role in securing data and communications.",
     topics: [
-      "Symmetric Encryption",
-      "Public Key Cryptography",
       "Digital Signatures",
-      "Hash Functions",
+      "Public Key Cryptography",
+      "Web-based Attacks",
+      "Attack Mitigation",
     ],
   },
   {
-    title: "Deep Learning",
+    title: "CS6005: Deep Learning Techniques",
     icon: FaBrain,
     description:
       "In-depth exploration of deep learning techniques and their applications in artificial intelligence and data science.",
@@ -36,18 +36,6 @@ const courseData = [
       "Convolutional Networks",
       "Recurrent Networks",
       "Transformers",
-    ],
-  },
-  {
-    title: "Research Methodologies",
-    icon: FaFlask,
-    description:
-      "Guidance on conducting scientific research, including experiment design, data analysis, and scholarly communication.",
-    topics: [
-      "Research Design",
-      "Data Collection",
-      "Statistical Analysis",
-      "Academic Writing",
     ],
   },
 ];

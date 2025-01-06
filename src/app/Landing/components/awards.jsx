@@ -6,18 +6,25 @@ const awardsData = [
     id: 1,
     title: "Best Paper Award",
     organization:
+      "International Conference on Electrical, Electronics, Information and Communication Technologies (ICEEICT 2024)",
+    year: 2024,
+  },
+  {
+    id: 2,
+    title: "Best Paper Award",
+    organization:
       "International Conference on Computational Intelligence in Data Science (ICCIDS - 2023)",
     year: 2023,
   },
   {
-    id: 2,
+    id: 3,
     title: "Best Paper Award",
     organization:
       "IEEE Fourteenth International Conference on Information Processing, India",
     year: 2018,
   },
   {
-    id: 3,
+    id: 4,
     title: "Best Project Award",
     organization: "TCS, India",
     year: 2014,
