@@ -1,15 +1,16 @@
 export const bibtexData = [
   {
     bibtex: `
-      @ARTICLE{Amaithi_Rajan2024,
-      author = {Amaithi Rajan, Arun and V, Vetriselvi and Raikwar, Mayank and Balaraman, Reshma},
-      title = {SMedIR: secure medical image retrieval framework with ConvNeXt-based indexing and searchable encryption in the cloud},
-      year = {2024},
-      volume = {13},
-      number = {1},
-      doi = {10.1186/s13677-024-00702-z},
-      url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85203851137&doi=10.1186%2fs13677-024-00702-z&partnerID=40&md5=e7b73534600f7083bc0b3734b2ab1186}
-    }
+       @ARTICLE{Amaithi_Rajan2024,
+  author = {Amaithi Rajan, Arun and V, Vetriselvi and Raikwar, Mayank and Balaraman, Reshma},
+  title = {SMedIR: secure medical image retrieval framework with ConvNeXt-based indexing and searchable encryption in the cloud},
+  year = {2024},
+  journal = {Journal of Cloud Computing},
+  volume = {13},
+  number = {1},
+  doi = {10.1186/s13677-024-00702-z},
+  url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85203851137&doi=10.1186%2fs13677-024-00702-z&partnerID=40&md5=e7b73534600f7083bc0b3734b2ab1186}
+}
     `,
     type: "Journal",
   },
