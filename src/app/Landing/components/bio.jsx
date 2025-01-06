@@ -37,16 +37,16 @@ const SOCIAL_LINKS = [
 ];
 
 const INTERESTS = [
-  "Cryptography and Network Security",
   "Computer Networks",
-  "Wireless Networks",
+  "Cryptography and Network Security",
   "Software Defined Networks",
-  "Computer Vision and Medical Image Processing",
+  "Computer Vision",
+  "Medical Image Processing",
 ];
 
 const EDUCATION = [
   {
-    degree: "PhD in Ad Hoc Networks",
+    degree: "PhD in Ad Hoc Networks, Supervisor: Dr. Ranjani Parathasarathi",
     year: "2008",
     institution: "Anna University",
   },
@@ -118,22 +118,13 @@ function Bio() {
             <div className="space-y-8 mx-6 md:mx-20 text-justify">
               <h1 className="text-5xl font-medium mb-4">Biography</h1>
               <p className="text-xl font-medium leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                scelerisque ligula et magna interdum, ac suscipit sapien
-                suscipit. Donec ac semper velit. Vivamus vitae placerat lectus,
-                eu fermentum ex. Nullam ut nisl in risus vestibulum vulputate.
-                Nulla facilisi. Phasellus vel eros neque. Duis et suscipit
-                neque. Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia curae; Ut suscipit nunc quis sem cursus
-                maximus.
+                I am a Professor in the Department of Computer Science and Engineering at Anna University, Chennai, 
+                with over two decades of experience in academia and research. My research interests encompass computer networks, 
+                cryptography and network security, vehicular ad hoc networks (VANETs), and computer vision. I am a life member of professional bodies including the Indian Society for Technical Education and the Institution of Electronics and Telecommunication Engineers.
+
               </p>
               <p className="text-xl font-medium leading-relaxed">
-                Donec tincidunt purus at justo iaculis, ac luctus arcu interdum.
-                Sed maximus sapien at augue cursus, eu sodales metus euismod.
-                Etiam bibendum feugiat orci, sit amet tincidunt justo iaculis
-                non. Integer faucibus ex eu bibendum hendrerit. Aliquam erat
-                volutpat. Nulla facilisi.
-              </p>
+                I have contributed to various research projects, including serving as the Principal Investigator for the Information Security Education and Awareness (ISEA) Project Phase II funded by MeitY. I currently supervise the Security Research Lab. My publication record includes numerous journal articles, book chapters, and conference proceedings, reflecting my commitment to advancing knowledge in my areas of expertise.
 
               {/* Interests and Education in Two Columns */}
               <div className="mt-8 flex flex-col md:flex-row gap-12">
