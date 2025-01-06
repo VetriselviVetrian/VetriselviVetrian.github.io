@@ -26,7 +26,7 @@ export default function Publications() {
             <>
               {authors} ({data.issued["date-parts"][0][0]}) {data.title}.{" "}
               <span className="italic">{data["container-title"]}</span>{" "}
-              {data.volume}({data.issue}):{data.page}.{" "}
+              {data.volume}({data.issue})
               <div className="inline-flex items-center gap-2 mt-2">
                 {entry.pdf && (
                   <span className="inline-block">
