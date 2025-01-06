@@ -1,18 +1,16 @@
 export const bibtexData = [
   {
     bibtex: `
-      @ARTICLE{9998527,
-        author={Zhang, Zijian and Dai, Linglong and Chen, Xibi and Liu, Changhao and Yang, Fan and Schober, Robert and Poor, H. Vincent},
-        journal={IEEE Transactions on Communications}, 
-        title={Active RIS vs. Passive RIS: Which Will Prevail in 6G?}, 
-        year={2022},
-        volume={71},
-        number={3},
-        pages={1707-1725},
-        doi={10.1109/TCOMM.2022.3231893}
-      }
+      @ARTICLE{Amaithi_Rajan2024,
+      author = {Amaithi Rajan, Arun and V, Vetriselvi and Raikwar, Mayank and Balaraman, Reshma},
+      title = {SMedIR: secure medical image retrieval framework with ConvNeXt-based indexing and searchable encryption in the cloud},
+      year = {2024},
+      volume = {13},
+      number = {1},
+      doi = {10.1186/s13677-024-00702-z},
+      url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85203851137&doi=10.1186%2fs13677-024-00702-z&partnerID=40&md5=e7b73534600f7083bc0b3734b2ab1186}
+    }
     `,
-    pdf: "/publications/P-Batch_Sudeep.pdf",
     type: "Journal",
   },
   {
