@@ -76,7 +76,7 @@ export const bibtexData = [
   },
   {
     bibtex: `
-      @CONFERENCE{Mohamed Ihsan2024,
+      @CONFERENCE{Mohamed_Ihsan2024,
   author = {Mohamed Ihsan, P.M. and Rajan, Arun Amaithi and Vetriselvi, V. and Gautham Kumar, G. and Praveen Kumar, R.},
   title = {QCrypt: Advanced Quantum-based Image Encryption for Secure Satellite Data Transmission},
   year = {2024},
@@ -132,7 +132,7 @@ export const bibtexData = [
   },
    {
     bibtex: `
-      @ARTICLE{Amaithi Rajan2024,
+      @ARTICLE{Amaithi_Rajan2024,
   author = {Amaithi Rajan, Arun and Vetrian, Vetriselvi},
   title = {QMedShield: a novel quantum chaos-based image encryption scheme for secure medical image storage in the cloud},
   year = {2024},
