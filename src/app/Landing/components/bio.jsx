@@ -125,6 +125,7 @@ function Bio() {
               </p>
               <p className="text-xl font-medium leading-relaxed">
                 I have contributed to various research projects, including serving as the Principal Investigator for the Information Security Education and Awareness (ISEA) Project Phase II funded by MeitY. I currently supervise the Security Research Lab. My publication record includes numerous journal articles, book chapters, and conference proceedings, reflecting my commitment to advancing knowledge in my areas of expertise.
+              </p>
 
               {/* Interests and Education in Two Columns */}
               <div className="mt-8 flex flex-col md:flex-row gap-12">
