@@ -269,6 +269,7 @@ export const bibtexData = [
   year = {2022},
   journal = {Emerging Technologies and Applications for a Smart and Sustainable World},
   pages = {41 – 67},
+  doi = {10.2174/97898150362441220101}
   url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151029736&partnerID=40&md5=d3c534f10c1445df51d9237b55f8c831}
 }
     `,
