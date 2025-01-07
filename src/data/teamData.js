@@ -90,47 +90,54 @@ export const masterStudents = {
       thesis: "Secure and Privacy-Aware Targeted-Encryption Based Image Storage and Retrieval Framework",
       position: "Full Stack Engineer at 21n",
     },
-    {
-      name: "Baskar P N",
-      link: "https://www.linkedin.com/in/baskar-p-n-7298a116a/",
-      association: "2022-2023",
-      thesis: "Multimodal Emotion Recognition in Conversation using Graph Convolution Networks",
-      position: "Software Engineer at Hindustan Aeronautics Limited",
-    },
   ],
 };
 
 export const groupedInternStudents = [
   {
-    area: "Network Security",
-    mentor: "Jun Han",
-    association: "Summer 2023",
-    publication: "https://github.com",
+    area: "Multimedia Security",
+    mentor: "Arun Amaithi Rajan",
+    association: "Summar 2024",
+    publication: "https://ieeexplore.ieee.org/document/10718453",
     columns: ["Name", "Current Position"],
     students: [
       {
-        name: "Alice Chen",
-        position: "Graduate Student at MIT",
+        name: "Praveen Kumar",
+        position: "Software Engineer at Wells Fargo",
       },
       {
-        name: "Bob Wilson",
-        position: "Software Engineer at Google",
+        name: "Gautham Kumar",
+        link: "https://www.linkedin.com/in/gauthamkumarganesan/",
+        position: "Software Engineer at Arcesium",
+      },
+      {
+        name: "Mohammed Ihsan",
+        link: "https://www.linkedin.com/in/mohamed-ihsan-pm/",
+        position: "Software Engineer at Infinera",
       },
     ],
   },
   {
-    area: "IoV Security",
-    mentor: "Jun Han",
-    association: "Fall 2023",
+    area: "Multimedia Security",
+    mentor: "Arun Amaithi Rajan",
+    association: "Summer 2023",
+    publication: "https://link.springer.com/article/10.1007/s12145-024-01256-z",
     columns: ["Name", "Current Position"],
     students: [
       {
-        name: "Carol Smith",
-        position: "Masters Student at Stanford",
+        name: "Ajitesh M",
+        link: "https://www.linkedin.com/in/ajitesh-mahalingam/",
+        position: "Software Engineer at Arcesium",
       },
       {
-        name: "David Lee",
-        position: "Research Assistant at Berkeley",
+        name: "Deekshith M",
+        link: "https://www.linkedin.com/in/deekshith-manohar-49b69a1a8/",
+        position: "Software Engineer at Infinera",
+      },
+      {
+        name: "Hemanth D",
+        link: "https://www.linkedin.com/in/hemanth-dasararaju-577172218/",
+        position: "Software Engineer at Bank of America",
       },
     ],
   },

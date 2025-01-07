@@ -23,9 +23,8 @@ export default function SelectedPublications() {
           year: data.issued["date-parts"][0][0],
           citation: (
             <>
-              {authors} ({data.issued["date-parts"][0][0]}) {data.title}.{" "}
+              {authors}, "{data.title}", {" "}
               <span className="italic">{data["container-title"]}</span>{" "}
-              {data.volume}({data.issue}):{data.page}.{" "}
               <div className="inline-flex items-center gap-2 mt-2">
                 {entry.pdf && (
                   <span className="inline-block">

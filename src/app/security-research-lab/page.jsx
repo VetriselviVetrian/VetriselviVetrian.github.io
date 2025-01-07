@@ -13,7 +13,7 @@ function page() {
       <SecurityLab />
       <Team />
       <SelectedPublications />
-      <Patent />
+      {/* <Patent /> */}
       <Footer />
     </div>
   );
