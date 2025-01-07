@@ -120,7 +120,8 @@ const Team = () => {
                 <tbody>
                   {masterStudents.data.map((student, index) => (
                     <tr key={index} className="hover">
-                      <td className="font-medium">{student.name}</td>
+                    <td className="w-1/6"><a href={student.link} target="_blank"
+                  rel="noopener noreferrer" className="hover:underline font-bold">{student.name}</a></td>
                       <td>{student.association}</td>
                       <td className="text-base-content/70">{student.thesis}</td>
                       <td>{student.position}</td>
