@@ -2,7 +2,7 @@ export const bibtexData = [
   {
     bibtex: `
        @ARTICLE{Amaithi_Rajan2024,
-        author = {Amaithi Rajan, Arun and V, Vetriselvi and Raikwar, Mayank and Balaraman, Reshma.},
+        author = {Amaithi Rajan, Arun and V, Vetriselvi and Raikwar, Mayank and Balaraman, Reshma.},
         title = {SMedIR: secure medical image retrieval framework with ConvNeXt-based indexing and searchable encryption in the cloud},
         year = {2024},
         journal = {Journal of Cloud Computing},
