@@ -3,6 +3,7 @@ export const phdStudents = {
     data: [
       {
         name: "Jai Vinita L",
+        link: "https://ceg.com",
         thesis: "Federated Learning-based Misbehaviour Detection System for the Next-generation of Internet of Vehicles",
         status: "Thesis Submitted",
       },

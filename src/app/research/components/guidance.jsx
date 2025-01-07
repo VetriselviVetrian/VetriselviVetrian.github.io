@@ -27,7 +27,8 @@ function Guidance() {
                 <tbody>
                   {phdStudents.data.map((student, index) => (
                     <tr key={index} className="hover">
-                      <td>{student.name}</td>
+                      <td><a href={student.link} target="_blank"
+                    rel="noopener noreferrer" className="hover:underline font-medium">{student.name}</a></td>
                       <td className="text-slate-500">{student.thesis}</td>
                       <td>{student.status}</td>
                     </tr>
