@@ -4,7 +4,7 @@ import { researchAreas, labImage } from "@/data/securityLabData";
 
 const SecurityLab = () => {
   return (
-    <div className="bg-base-200 min-h-screen">
+    <div className="bg-base-100 min-h-screen">
       <div className="container mx-auto px-4 py-12 max-w-6xl">
         <h1 className="text-4xl font-bold text-center mb-16">
           Security Research Lab
