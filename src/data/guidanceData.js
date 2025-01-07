@@ -1,21 +1,35 @@
 export const phdStudents = {
-    columns: ["Name", "Thesis Title / Area of Research", "Status"],
+    columns: ["Name", "Title of the Thesis", "Status"],
     data: [
       {
-        name: "John Smith",
-        thesis:
-          "Security Enhancement in Internet of Vehicles using Blockchain Technology",
+        name: "Jai Vinita L",
+        thesis: "Federated Learning-based Misbehaviour Detection System for the Next-generation of Internet of Vehicles",
+        status: "Thesis Submitted",
+      },
+      {
+        name: "Hemalatha K",
+        thesis: "Innovative Approaches for Cervical Cancer Cell Image Detection and Classification Using Deep Learning Methods",
+        status: "Thesis Submitted",
+      },
+      {
+        name: "Meignanamoorthi D",
+        thesis: "Towards Enhancing Resource Allocation and Routing in Network Slicing for Beyond 5G using  Deep Reinforcement Learning Approach",
+        status: "Thesis Submitted",
+      },
+        {
+        name: "Aruna Gladys A",
+        thesis: "A Multimodal Framework for Affect Sensing and Causal Understanding Using Representation Learning and Large Language Models",
         status: "Ongoing",
       },
-      {
-        name: "Sarah Johnson",
-        thesis: "Deep Learning Approaches for Medical Image Analysis",
-        status: "Final Year",
+        {
+        name: "Arun Amaithi Rajan",
+        thesis: "Towards Efficient and Secure Framework for Medical Image Storage and Retrieval in Cloud-based Digital Healthcare",
+        status: "Ongoing",
       },
-      {
-        name: "Michael Chen",
-        thesis: "Network Optimization in 5G Systems",
-        status: "Second Year",
+         {
+        name: "Aishwarya",
+        thesis: "Secure and Efficient Protocols for Internet of Vehicles Communication",
+        status: "Ongoing",
       },
     ],
   };
@@ -24,27 +38,27 @@ export const phdStudents = {
     columns: [
       "Name",
       "Association",
-      "Thesis Title / Area of Research",
+      "Area of Research",
       "Subsequent Position",
     ],
     data: [
       {
-        name: "Emma Wilson",
-        association: "2021-2023",
-        thesis: "Sentiment Analysis in Social Media Networks",
-        position: "Data Scientist at Tech Corp",
-      },
-      {
-        name: "David Brown",
-        association: "2020-2022",
-        thesis: "IoT Security Framework Development",
-        position: "Security Engineer at SecureNet",
-      },
-      {
-        name: "Lisa Anderson",
-        association: "2022-Present",
-        thesis: "Machine Learning in Healthcare Systems",
+        name: "Anand B",
+        association: "2024-Present",
+        thesis: "Secure Image Storage using Adversarial attack resistant steganography and Blockchain technologies",
         position: "Ongoing",
+      },
+      {
+        name: "Mohamed Fuzail H",
+        association: "2022-2023",
+        thesis: "Secure and Privacy-Aware Targeted-Encryption Based Image Storage and Retrieval Framework",
+        position: "Full Stack Engineer at 21n",
+      },
+      {
+        name: "Baskar P N",
+        association: "2022-2023",
+        thesis: "Multimodal Emotion Recognition in Conversation using Graph Convolution Networks",
+        position: "Software Engineer at Hindustan Aeronautics Limited",
       },
     ],
   };
