@@ -196,8 +196,9 @@ const Team = () => {
                       </thead>
                       <tbody>
                         {group.students.map((student, studentIndex) => (
-                          <tr key={studentIndex} className="hover">
-                            <td className="font-medium pr-4">{student.name}</td>
+                          <tr key={index} className="hover">
+                          <td className="w-1/6"><a href={student.link} target="_blank"
+                        rel="noopener noreferrer" className="hover:underline font-bold">{student.name}</a></td>
                             <td>{student.position}</td>
                           </tr>
                         ))}
