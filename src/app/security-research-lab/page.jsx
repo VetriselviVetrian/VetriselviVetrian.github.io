@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/Navbar";
+import Navbar from "@/components/Nav2";
 import React from "react";
 import Footer from "@/components/Footer";
 import SecurityLab from "./components/securitylab";
