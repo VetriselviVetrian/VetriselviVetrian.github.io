@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { IoSunnyOutline, IoMoon, IoSearch, IoClose } from "react-icons/io5";
 import { HiMenuAlt3 } from "react-icons/hi";
+import Link from "next/link";
 // import SearchBar from "./Searchbar";
 
 const NAV_LINKS = [
@@ -128,12 +129,13 @@ export function Navbar() {
         } ${isDraculaTheme ? "border-[#1D232A]" : "border-white"}`}
       >
         <div className="flex-1">
-          <a
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          <Link
+            // onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            href="/"
             className="text-lg sm:text-xl md:text-2xl font-bold pl-2 md:ml-16 lg:ml-20 cursor-pointer"
           >
             Vetriselvi V
-          </a>
+          </Link>
         </div>
 
         <div className="flex-none gap-4 sm:gap-6">
