@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { researchAreas, labImage } from "@/data/securityLabData"; 
+import ResearchCarousel from "./carousel";
 
 const SecurityLab = () => {
   return (
@@ -35,6 +36,8 @@ const SecurityLab = () => {
             />
           </div>
         </div>
+
+        {/* <ResearchCarousel /> */}
 
         {/* Research Areas Section */}
         <div className="p-8">

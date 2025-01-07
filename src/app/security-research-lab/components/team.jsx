@@ -9,7 +9,7 @@ import {
 
 const Team = () => {
   return (
-    <div className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-base-200 pt-12">
       <div className="container mx-auto px-6 pb-10 max-w-7xl">
         <h1 className="text-5xl font-bold text-center mb-20">Team</h1>
 
