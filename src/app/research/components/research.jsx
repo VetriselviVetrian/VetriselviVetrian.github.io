@@ -10,10 +10,7 @@ function Research() {
 
         <div className="prose max-w-none mb-12">
           <p className="text-lg leading-relaxed text-justify">
-            Our research focuses on advancing the frontiers of technology through
-            innovative solutions in various domains of computer science and
-            engineering. We combine theoretical foundations with practical
-            applications to address real-world challenges.
+          My research focuses on advancing connectivity, security, and intelligent systems across domains such as Internet of Vehicles (IoV), network security, sentiment analysis, and medical image processing. Under my guidance, students have developed cutting-edge solutions, including secure communication protocols for IoV, resource optimization for beyond 5G networks, and innovative frameworks for medical image analysis and storage. Our work also explores multimodal affect sensing, emotion recognition, and privacy-aware encryption techniques using advanced methods like federated learning, deep reinforcement learning, and blockchain. These efforts reflect a strong commitment to solving real-world challenges while driving impactful, interdisciplinary innovation.
           </p>
         </div>
 
@@ -32,7 +29,7 @@ function Research() {
           <h2 className="text-2xl font-semibold mb-6">Current Research Areas</h2>
           <div className="space-y-12">
             {researchDetails.map((area) => (
-              <div key={area.id} className="card lg:card-side bg-base-100 shadow-xl">
+              <div key={area.id} className="card lg:card-side bg-base-200 shadow-xl">
                 <figure className="lg:w-1/3 relative min-h-[300px]">
                   <Image
                     src={area.image}
