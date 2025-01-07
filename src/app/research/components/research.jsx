@@ -4,7 +4,7 @@ import { researchInterests, researchDetails } from "@/data/researchData";
 
 function Research() {
   return (
-    <div className="bg-base-200">
+    <div>
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <h1 className="text-4xl text-center font-bold mb-6">Research</h1>
 
