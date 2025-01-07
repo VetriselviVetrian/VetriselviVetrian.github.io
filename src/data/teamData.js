@@ -1,14 +1,17 @@
-import placeholder from "@/assets/research/ex.jpg";
+import man from "@/assets/research/ex.jpg";
+import woman from "@/assets/research/woman.jpg";
 import profImage from "@/assets/slab/team/prof.jpg";
 import arun from "@/assets/slab/team/arun.jpeg";
+import jai from "@/assets/slab/team/jai.jpg";
+import mei from "@/assets/slab/team/mai.jpeg";
 
 export const professorInfo = {
   name: "Vetriselvi V",
   image: profImage,
   title: "Professor",
   department: "Computer Science and Engineering",
-  university: "Anna University",
-  emails: ["jun.han@kaist.ac.kr", "junhan@cyphy.kaist.ac.kr"],
+  university: "College of Engineering Guindy, Anna University",
+  emails: ["vetri@annauniv.edu"],
   experience: [
     "Professor at Anna University (Aug 2015 - Present)",
     "Associate Professor at Anna University (Aug 2012 - Aug 2015)",
@@ -20,40 +23,49 @@ export const professorInfo = {
 
 export const currentStudents = [
   {
-    name: "John Smith",
+    name: "Jai Vinita L",
+    image: jai,
+    type: "PhD Student",
+  },
+  {
+    name: "Meignaanamoorthi D",
+    image: mei,
+    type: "PhD Student",
+  },
+  {
+    name: "Arun Amaithi Rajan",
     image: arun,
-    linkedIn: "john-smith-123",
-    type: "PhD",
+    type: "PhD Student",
   },
   {
-    name: "Sarah Johnson",
-    image: placeholder,
-    linkedIn: "sarah-johnson",
-    type: "Masters",
+    name: "Aishwarya R",
+    image: woman,
+    type: "PhD Student",
   },
   {
-    name: "Michael Lee",
-    image: placeholder,
-    linkedIn: "michael-lee",
-    type: "Undergraduate",
+    name: "Anand B",
+    image: man,
+    type: "Masters Student",
   },
   {
-    name: "Lisa Chen",
-    image: placeholder,
-    linkedIn: "lisa-chen",
-    type: "PhD",
+    name: "Sudeep R",
+    image: man,
+    type: "Undergraduate Student",
   },
   {
-    name: "David Brown",
-    image: placeholder,
-    linkedIn: "david-brown",
-    type: "Masters",
+    name: "Riya Elizabeth",
+    image: woman,
+    type: "Undergraduate Student",
   },
   {
-    name: "Alice Zhang",
-    image: placeholder,
-    linkedIn: "alice-zhang",
-    type: "Undergraduate",
+    name: "Vikranth",
+    image: man,
+    type: "Undergraduate Student",
+  },
+  {
+    name: "Vishwanth",
+    image: man,
+    type: "Undergraduate Student",
   },
 ];
 
