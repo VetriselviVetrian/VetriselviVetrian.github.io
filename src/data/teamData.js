@@ -91,6 +91,7 @@ export const groupedInternStudents = [
     area: "Network Security",
     mentor: "Jun Han",
     association: "Summer 2023",
+    publication: "https://github.com",
     columns: ["Name", "Current Position"],
     students: [
       {

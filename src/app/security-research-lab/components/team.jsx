@@ -143,7 +143,7 @@ const Team = () => {
                   className="bg-base-100 rounded-xl shadow-lg overflow-hidden"
                 >
                   <div className="bg-base-300 p-6">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                       <div>
                         <p className="text-sm font-medium text-base-content/60">
                           Area of Research
@@ -163,6 +163,19 @@ const Team = () => {
                           Association
                         </p>
                         <p className="font-semibold">{group.association}</p>
+                      </div>
+                      <div>
+                        {group.publication && (
+                          <a
+                            href={group.publication}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-primary hover:text-primary/80 transition-colors rounded-md hover:bg-primary/10 focus:outline-none focus:ring-2 focus:ring-primary/20 focus-visible:ring-offset-2"
+                            aria-label="View publication in new tab"
+                          >
+                            Publication
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
