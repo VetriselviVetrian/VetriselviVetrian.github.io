@@ -104,11 +104,11 @@ export default function Publications() {
       <div className="container mx-auto px-6 lg:px-8 py-12 md:py-16">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-center mb-4">
-            Selected Publications
+            Publications
           </h1>
-          <p className="text-xl font-medium leading-relaxed">
+          {/* <p className="text-xl font-medium leading-relaxed">
             A curated list of publications
-          </p>
+          </p> */}
         </div>
 
         <div className="space-y-12">
