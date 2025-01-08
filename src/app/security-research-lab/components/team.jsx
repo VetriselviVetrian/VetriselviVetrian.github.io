@@ -78,7 +78,7 @@ const Team = () => {
                 </figure>
                 <div className="card-body items-center text-center p-6">
                   <a
-                    href={`https://linkedin.com/in/${student.linkedIn}`}
+                    href={student.link}
                     className="card-title text-lg hover:text-primary transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -101,7 +101,7 @@ const Team = () => {
           {/* Master Students */}
           <div className="mb-16">
             <h3 className="text-2xl font-semibold mb-8 text-start">
-              Master Students
+              Masters Students
             </h3>
             <div className="overflow-x-auto bg-base-100 rounded-xl shadow-lg">
               <table className="table w-full table-zebra">
@@ -135,7 +135,7 @@ const Team = () => {
           {/* Undergraduate Interns */}
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-start">
-              Undergraduate Intern Students
+              Undergraduate Students
             </h3>
             <div className="space-y-6">
               {groupedInternStudents.map((group, index) => (

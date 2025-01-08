@@ -19,6 +19,11 @@ export const phdStudents = {
         thesis: "Towards Enhancing Resource Allocation and Routing in Network Slicing for Beyond 5G using  Deep Reinforcement Learning Approach",
         status: "Thesis Submitted",
       },
+      {
+        name: "Bharathi N A",
+        thesis: "Deep Learning Based Network Attack Detection and Randomization Based Defense Strategies in SDN (co-advised by Prof. Ranjani Parthasarathi)",
+        status: "Thesis Submitted",
+      },
         {
         name: "Aruna Gladys A",
         link: "https://scholar.google.com/citations?user=dHI4vSoAAAAJ&hl=en",
